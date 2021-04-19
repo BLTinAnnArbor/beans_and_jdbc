@@ -1,0 +1,116 @@
+
+.navbar-custom{
+	background-color:#FFC300!important;
+}
+.seat-container{
+/* 	padding-left:10%;
+	padding-right: 10%; */
+	padding-top: 2rem;
+	min-width: 480px;
+/* 	background-color: #e8ebed; */
+	margin-bottom: 1rem;
+	
+}
+.unit-backup{
+	background: red;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	height: .6%;
+	width:.6%;
+	display: inline;
+}
+.unit{
+	background: black;
+	margin-right: 1.5%;
+	margin-bottom: 1%;
+	height: .6%;
+	width:.6%;
+	display: inline;
+}
+.label{
+
+	margin-right: 1.5%;
+	margin-bottom: 1%;
+
+	height: .6%;
+	width:.6%;
+	display: inline;
+}
+.labelRow{
+	margin-bottom: 1rem;
+	margin-left: -24px;
+}
+.labelRow6{
+	margin-left: -24px;
+}
+.label p{
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.clicked{
+	background: #007bff;
+	margin-right: 1.5%;
+	margin-bottom: 1%;
+	height: .6%;
+	width:.6%;
+	display: inline;
+}
+
+div a{
+color:red;
+}
+.unit:hover{
+	background: gray;
+}
+a:hover {
+	color: yellow;
+}
+.poster{
+	max-width: 200px;
+	margin: 0 auto;
+/* 	text-align: center; */
+}
+.posterInfo p{
+	text-align: center;
+	margin-top:auto;
+	margin-bottom: auto;
+}
+.posterDetails{
+	margin-top: 1rem;
+}
+.contentRow{
+	max-height:10%;
+	margin-top:2rem;
+}
+.seatRow{
+	margin-top:1.25rem;
+}
+.cartModule{
+	padding: .5rem;
+	margin-left: 0.5rem;
+	margin-right: 1rem;
+	max-width: 100%;
+	float: left;
+}
+.contentContainer{	
+/* margin-left: 1rem;
+margin-right: 1rem; */
+margin-top: 1rem;
+}
+.movieInfo{
+	margin-top:1rem;
+	margin-bottom: 1rem;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+ul button{
+	margin-top: 1rem;
+}
+h5{
+	text-align:center;
+}

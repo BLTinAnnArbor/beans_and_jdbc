@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>db_server</param-name>
+        <param-value>64.225.114.18:3306</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db_userid</param-name>
+        <param-value>cps298at</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db_password</param-name>
+        <param-value>t3Qfc5DubCLXLOaqhhyyqQNq</param-value>
+    </context-param>
+    <listener>
+        <listener-class>
+             jdbc.GlobalConnectionPool
+        </listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>TB_DBAdmin_Servlet</servlet-name>
+        <servlet-class>sql.TB_DBAdmin_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TB_DBAdmin_Servlet</servlet-name>
+        <url-pattern>/TB_DBAdmin_Servlet</url-pattern>
+    </servlet-mapping>
+ 
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
